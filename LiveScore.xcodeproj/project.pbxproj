@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E60ADC9629990F7B0067EDFA /* LiveScoreApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E60ADC9529990F7B0067EDFA /* LiveScoreApp.swift */; };
+		E60ADC9829990F7B0067EDFA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E60ADC9729990F7B0067EDFA /* ContentView.swift */; };
+		E60ADC9A29990F7C0067EDFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E60ADC9929990F7C0067EDFA /* Assets.xcassets */; };
+		E60ADC9D29990F7C0067EDFA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E60ADC9C29990F7C0067EDFA /* Preview Assets.xcassets */; };
+		E60ADCAA299911D40067EDFA /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E60ADCA9299911D40067EDFA /* WidgetKit.framework */; };
+		E60ADCAC299911D40067EDFA /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E60ADCAB299911D40067EDFA /* SwiftUI.framework */; };
+		E60ADCAF299911D40067EDFA /* CricketScoreBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E60ADCAE299911D40067EDFA /* CricketScoreBundle.swift */; };
+		E60ADCB1299911D40067EDFA /* CricketScoreLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = E60ADCB0299911D40067EDFA /* CricketScoreLiveActivity.swift */; };
+		E60ADCB3299911D40067EDFA /* CricketScore.swift in Sources */ = {isa = PBXBuildFile; fileRef = E60ADCB2299911D40067EDFA /* CricketScore.swift */; };
+		E60ADCB6299911D60067EDFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E60ADCB5299911D60067EDFA /* Assets.xcassets */; };
+		E60ADCB8299911D60067EDFA /* CricketScore.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = E60ADCB4299911D40067EDFA /* CricketScore.intentdefinition */; };
+		E60ADCB9299911D60067EDFA /* CricketScore.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = E60ADCB4299911D40067EDFA /* CricketScore.intentdefinition */; };
+		E60ADCBC299911D60067EDFA /* CricketScoreExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = E60ADCA7299911D40067EDFA /* CricketScoreExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		E60ADCC22999166A0067EDFA /* ScoreboardAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = E60ADCC12999166A0067EDFA /* ScoreboardAttributes.swift */; };
+		E60ADCC3299916780067EDFA /* ScoreboardAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = E60ADCC12999166A0067EDFA /* ScoreboardAttributes.swift */; };
+		E60ADCE0299924AD0067EDFA /* LiveActivityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E60ADCDF299924AD0067EDFA /* LiveActivityManager.swift */; };
+		E60ADCE229992D1E0067EDFA /* LiveScoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E60ADCE129992D1E0067EDFA /* LiveScoreData.swift */; };
+		E60ADCE429992DA80067EDFA /* LiveScoreResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E60ADCE329992DA80067EDFA /* LiveScoreResponseModel.swift */; };
+		E60ADCE529992DA80067EDFA /* LiveScoreResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E60ADCE329992DA80067EDFA /* LiveScoreResponseModel.swift */; };
+		E60ADCE7299938A10067EDFA /* ScoreCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E60ADCE6299938A10067EDFA /* ScoreCardView.swift */; };
+		E60ADCE8299938A10067EDFA /* ScoreCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E60ADCE6299938A10067EDFA /* ScoreCardView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E60ADCBA299911D60067EDFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E60ADC8A29990F7B0067EDFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E60ADCA6299911D40067EDFA;
+			remoteInfo = CricketScoreExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E60ADCC0299911D60067EDFA /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				E60ADCBC299911D60067EDFA /* CricketScoreExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E60ADC9229990F7B0067EDFA /* LiveScore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiveScore.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E60ADC9529990F7B0067EDFA /* LiveScoreApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveScoreApp.swift; sourceTree = "<group>"; };
+		E60ADC9729990F7B0067EDFA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E60ADC9929990F7C0067EDFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E60ADC9C29990F7C0067EDFA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E60ADCA7299911D40067EDFA /* CricketScoreExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = CricketScoreExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		E60ADCA9299911D40067EDFA /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		E60ADCAB299911D40067EDFA /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		E60ADCAE299911D40067EDFA /* CricketScoreBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CricketScoreBundle.swift; sourceTree = "<group>"; };
+		E60ADCB0299911D40067EDFA /* CricketScoreLiveActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CricketScoreLiveActivity.swift; sourceTree = "<group>"; };
+		E60ADCB2299911D40067EDFA /* CricketScore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CricketScore.swift; sourceTree = "<group>"; };
+		E60ADCB4299911D40067EDFA /* CricketScore.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = CricketScore.intentdefinition; sourceTree = "<group>"; };
+		E60ADCB5299911D60067EDFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E60ADCB7299911D60067EDFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E60ADCC12999166A0067EDFA /* ScoreboardAttributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreboardAttributes.swift; sourceTree = "<group>"; };
+		E60ADCDF299924AD0067EDFA /* LiveActivityManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveActivityManager.swift; sourceTree = "<group>"; };
+		E60ADCE129992D1E0067EDFA /* LiveScoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveScoreData.swift; sourceTree = "<group>"; };
+		E60ADCE329992DA80067EDFA /* LiveScoreResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveScoreResponseModel.swift; sourceTree = "<group>"; };
+		E60ADCE6299938A10067EDFA /* ScoreCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreCardView.swift; sourceTree = "<group>"; };
+		E68A7234299AB708006DDCCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E60ADC8F29990F7B0067EDFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E60ADCA4299911D40067EDFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E60ADCAC299911D40067EDFA /* SwiftUI.framework in Frameworks */,
+				E60ADCAA299911D40067EDFA /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E60ADC8929990F7B0067EDFA = {
+			isa = PBXGroup;
+			children = (
+				E60ADC9429990F7B0067EDFA /* LiveScore */,
+				E60ADCAD299911D40067EDFA /* CricketScore */,
+				E60ADCA8299911D40067EDFA /* Frameworks */,
+				E60ADC9329990F7B0067EDFA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E60ADC9329990F7B0067EDFA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E60ADC9229990F7B0067EDFA /* LiveScore.app */,
+				E60ADCA7299911D40067EDFA /* CricketScoreExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E60ADC9429990F7B0067EDFA /* LiveScore */ = {
+			isa = PBXGroup;
+			children = (
+				E68A7234299AB708006DDCCB /* Info.plist */,
+				E60ADC9529990F7B0067EDFA /* LiveScoreApp.swift */,
+				E60ADCDF299924AD0067EDFA /* LiveActivityManager.swift */,
+				E60ADCE129992D1E0067EDFA /* LiveScoreData.swift */,
+				E60ADCE6299938A10067EDFA /* ScoreCardView.swift */,
+				E60ADC9729990F7B0067EDFA /* ContentView.swift */,
+				E60ADC9929990F7C0067EDFA /* Assets.xcassets */,
+				E60ADC9B29990F7C0067EDFA /* Preview Content */,
+			);
+			path = LiveScore;
+			sourceTree = "<group>";
+		};
+		E60ADC9B29990F7C0067EDFA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E60ADC9C29990F7C0067EDFA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E60ADCA8299911D40067EDFA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E60ADCA9299911D40067EDFA /* WidgetKit.framework */,
+				E60ADCAB299911D40067EDFA /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E60ADCAD299911D40067EDFA /* CricketScore */ = {
+			isa = PBXGroup;
+			children = (
+				E60ADCAE299911D40067EDFA /* CricketScoreBundle.swift */,
+				E60ADCB0299911D40067EDFA /* CricketScoreLiveActivity.swift */,
+				E60ADCC12999166A0067EDFA /* ScoreboardAttributes.swift */,
+				E60ADCE329992DA80067EDFA /* LiveScoreResponseModel.swift */,
+				E60ADCB2299911D40067EDFA /* CricketScore.swift */,
+				E60ADCB4299911D40067EDFA /* CricketScore.intentdefinition */,
+				E60ADCB5299911D60067EDFA /* Assets.xcassets */,
+				E60ADCB7299911D60067EDFA /* Info.plist */,
+			);
+			path = CricketScore;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E60ADC9129990F7B0067EDFA /* LiveScore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E60ADCA029990F7C0067EDFA /* Build configuration list for PBXNativeTarget "LiveScore" */;
+			buildPhases = (
+				E60ADC8E29990F7B0067EDFA /* Sources */,
+				E60ADC8F29990F7B0067EDFA /* Frameworks */,
+				E60ADC9029990F7B0067EDFA /* Resources */,
+				E60ADCC0299911D60067EDFA /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E60ADCBB299911D60067EDFA /* PBXTargetDependency */,
+			);
+			name = LiveScore;
+			productName = LiveScore;
+			productReference = E60ADC9229990F7B0067EDFA /* LiveScore.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E60ADCA6299911D40067EDFA /* CricketScoreExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E60ADCBD299911D60067EDFA /* Build configuration list for PBXNativeTarget "CricketScoreExtension" */;
+			buildPhases = (
+				E60ADCA3299911D40067EDFA /* Sources */,
+				E60ADCA4299911D40067EDFA /* Frameworks */,
+				E60ADCA5299911D40067EDFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CricketScoreExtension;
+			productName = CricketScoreExtension;
+			productReference = E60ADCA7299911D40067EDFA /* CricketScoreExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E60ADC8A29990F7B0067EDFA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					E60ADC9129990F7B0067EDFA = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					E60ADCA6299911D40067EDFA = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = E60ADC8D29990F7B0067EDFA /* Build configuration list for PBXProject "LiveScore" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E60ADC8929990F7B0067EDFA;
+			productRefGroup = E60ADC9329990F7B0067EDFA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E60ADC9129990F7B0067EDFA /* LiveScore */,
+				E60ADCA6299911D40067EDFA /* CricketScoreExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E60ADC9029990F7B0067EDFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E60ADC9D29990F7C0067EDFA /* Preview Assets.xcassets in Resources */,
+				E60ADC9A29990F7C0067EDFA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E60ADCA5299911D40067EDFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E60ADCB6299911D60067EDFA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E60ADC8E29990F7B0067EDFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E60ADCC22999166A0067EDFA /* ScoreboardAttributes.swift in Sources */,
+				E60ADCE7299938A10067EDFA /* ScoreCardView.swift in Sources */,
+				E60ADCB9299911D60067EDFA /* CricketScore.intentdefinition in Sources */,
+				E60ADCE229992D1E0067EDFA /* LiveScoreData.swift in Sources */,
+				E60ADC9829990F7B0067EDFA /* ContentView.swift in Sources */,
+				E60ADCE0299924AD0067EDFA /* LiveActivityManager.swift in Sources */,
+				E60ADC9629990F7B0067EDFA /* LiveScoreApp.swift in Sources */,
+				E60ADCE429992DA80067EDFA /* LiveScoreResponseModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E60ADCA3299911D40067EDFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E60ADCE529992DA80067EDFA /* LiveScoreResponseModel.swift in Sources */,
+				E60ADCE8299938A10067EDFA /* ScoreCardView.swift in Sources */,
+				E60ADCAF299911D40067EDFA /* CricketScoreBundle.swift in Sources */,
+				E60ADCC3299916780067EDFA /* ScoreboardAttributes.swift in Sources */,
+				E60ADCB3299911D40067EDFA /* CricketScore.swift in Sources */,
+				E60ADCB1299911D40067EDFA /* CricketScoreLiveActivity.swift in Sources */,
+				E60ADCB8299911D60067EDFA /* CricketScore.intentdefinition in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E60ADCBB299911D60067EDFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E60ADCA6299911D40067EDFA /* CricketScoreExtension */;
+			targetProxy = E60ADCBA299911D60067EDFA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E60ADC9E29990F7C0067EDFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E60ADC9F29990F7C0067EDFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E60ADCA129990F7C0067EDFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LiveScore/Preview Content\"";
+				DEVELOPMENT_TEAM = 5TUMPAV88S;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LiveScore/Info.plist;
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dipak.paytmmoney;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E60ADCA229990F7C0067EDFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LiveScore/Preview Content\"";
+				DEVELOPMENT_TEAM = 5TUMPAV88S;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LiveScore/Info.plist;
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dipak.paytmmoney;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E60ADCBE299911D60067EDFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5TUMPAV88S;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CricketScore/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = CricketScore;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dipak.paytmmoney.LiveScore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E60ADCBF299911D60067EDFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5TUMPAV88S;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CricketScore/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = CricketScore;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dipak.paytmmoney.LiveScore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E60ADC8D29990F7B0067EDFA /* Build configuration list for PBXProject "LiveScore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E60ADC9E29990F7C0067EDFA /* Debug */,
+				E60ADC9F29990F7C0067EDFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E60ADCA029990F7C0067EDFA /* Build configuration list for PBXNativeTarget "LiveScore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E60ADCA129990F7C0067EDFA /* Debug */,
+				E60ADCA229990F7C0067EDFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E60ADCBD299911D60067EDFA /* Build configuration list for PBXNativeTarget "CricketScoreExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E60ADCBE299911D60067EDFA /* Debug */,
+				E60ADCBF299911D60067EDFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E60ADC8A29990F7B0067EDFA /* Project object */;
+}
